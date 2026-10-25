@@ -11,7 +11,7 @@ const details = [
     icon: BriefcaseBusiness,
     label: 'Experience',
     value: 'Human resources at TCP Health',
-    note: 'Background in administration, finance & academic research',
+    note: 'Also a Data Entry Operator at Drivus Dubai Company; background in administration, finance & academic research',
   },
   {
     icon: Languages,
