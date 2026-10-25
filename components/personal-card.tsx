@@ -1,4 +1,4 @@
-import { ArrowUpRight, BriefcaseBusiness, GraduationCap, Languages, Mail, Phone } from 'lucide-react'
+import { ArrowUpRight, BarChart3, BriefcaseBusiness, GraduationCap, Languages, Mail, Phone } from 'lucide-react'
 
 const details = [
   {
@@ -11,13 +11,19 @@ const details = [
     icon: BriefcaseBusiness,
     label: 'Experience',
     value: 'Human resources at TCP Health',
-    note: 'Background in administration, finance & academic research',
+    note: 'Also a Data Entry Operator at Drivus Dubai Company; background in administration, finance & academic research',
   },
   {
     icon: Languages,
     label: 'Languages',
     value: 'Pashto · Urdu · English',
     note: 'Building a career towards HR management',
+  },
+  {
+    icon: BarChart3,
+    label: 'Core skills',
+    value: 'SPSS · Stata · E-Views',
+    note: 'HR operations, employee relations, payroll support & financial reporting',
   },
 ]
 
@@ -63,8 +69,9 @@ export function PersonalCard() {
           <h2 id="about-title">A little about me</h2>
           <p>
             I work in human resources at TCP Health, with a background in administration,
-            finance and academic research. I speak Pashto, Urdu and English, and I am
-            building my career towards HR management.
+            finance and academic research. I have also worked in quantitative research
+            in the social sciences. I speak Pashto, Urdu and English, and I am building
+            my career towards HR management.
           </p>
         </section>
 
@@ -89,7 +96,10 @@ export function PersonalCard() {
           </div>
         </footer>
       </article>
-      <p className="page-note">Dr. Jamshed Iqbal <span aria-hidden="true">·</span> HR Officer</p>
+      <p className="page-note">
+        Dr. Jamshed Iqbal <span aria-hidden="true">·</span> HR Officer
+        <span className="page-note-location">Based in Pakistan.</span>
+      </p>
     </main>
   )
 }
