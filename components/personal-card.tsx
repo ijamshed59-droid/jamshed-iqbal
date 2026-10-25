@@ -1,4 +1,4 @@
-import { ArrowUpRight, BriefcaseBusiness, GraduationCap, Languages, Mail, Phone } from 'lucide-react'
+import { ArrowUpRight, BarChart3, BriefcaseBusiness, GraduationCap, Languages, Mail, Phone } from 'lucide-react'
 
 const details = [
   {
@@ -18,6 +18,12 @@ const details = [
     label: 'Languages',
     value: 'Pashto · Urdu · English',
     note: 'Building a career towards HR management',
+  },
+  {
+    icon: BarChart3,
+    label: 'Core skills',
+    value: 'SPSS · Stata · E-Views',
+    note: 'HR operations, employee relations, payroll support & financial reporting',
   },
 ]
 
