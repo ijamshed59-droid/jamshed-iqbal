@@ -89,7 +89,10 @@ export function PersonalCard() {
           </div>
         </footer>
       </article>
-      <p className="page-note">Dr. Jamshed Iqbal <span aria-hidden="true">·</span> HR Officer</p>
+      <p className="page-note">
+        Dr. Jamshed Iqbal <span aria-hidden="true">·</span> HR Officer
+        <span className="page-note-location">Based in Pakistan.</span>
+      </p>
     </main>
   )
 }

@@ -293,6 +293,13 @@ body {
   color: #9aabc0;
 }
 
+.page-note .page-note-location {
+  display: block;
+  margin-top: 4px;
+  padding: 0;
+  color: #8492a4;
+}
+
 @media (max-width: 540px) {
   .page-shell {
     justify-content: flex-start;
