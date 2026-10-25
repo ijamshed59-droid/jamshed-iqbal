@@ -63,8 +63,9 @@ export function PersonalCard() {
           <h2 id="about-title">A little about me</h2>
           <p>
             I work in human resources at TCP Health, with a background in administration,
-            finance and academic research. I speak Pashto, Urdu and English, and I am
-            building my career towards HR management.
+            finance and academic research. I have also worked in quantitative research
+            in the social sciences. I speak Pashto, Urdu and English, and I am building
+            my career towards HR management.
           </p>
         </section>
 
